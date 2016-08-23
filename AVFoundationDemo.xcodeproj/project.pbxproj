@@ -22,6 +22,8 @@
 		0260C0D21D6C1554009EEEE3 /* RecorderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0260C0CC1D6C1554009EEEE3 /* RecorderVC.m */; };
 		0260C0D31D6C1554009EEEE3 /* SoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0260C0CE1D6C1554009EEEE3 /* SoundVC.m */; };
 		0260C0D41D6C1554009EEEE3 /* VideoPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0260C0D01D6C1554009EEEE3 /* VideoPlayerVC.m */; };
+		02FE60FF1D6C171B00C416ED /* AudioPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE60FC1D6C171B00C416ED /* AudioPlayerVC.m */; };
+		02FE61001D6C171B00C416ED /* AVPlayerViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE60FE1D6C171B00C416ED /* AVPlayerViewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,10 @@
 		0260C0CE1D6C1554009EEEE3 /* SoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundVC.m; sourceTree = "<group>"; };
 		0260C0CF1D6C1554009EEEE3 /* VideoPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerVC.h; sourceTree = "<group>"; };
 		0260C0D01D6C1554009EEEE3 /* VideoPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerVC.m; sourceTree = "<group>"; };
+		02FE60FB1D6C171B00C416ED /* AudioPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerVC.h; sourceTree = "<group>"; };
+		02FE60FC1D6C171B00C416ED /* AudioPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerVC.m; sourceTree = "<group>"; };
+		02FE60FD1D6C171B00C416ED /* AVPlayerViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerViewVC.h; sourceTree = "<group>"; };
+		02FE60FE1D6C171B00C416ED /* AVPlayerViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerViewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 		0260C0881D6C14FF009EEEE3 /* AVFoundationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				02FE60FB1D6C171B00C416ED /* AudioPlayerVC.h */,
+				02FE60FC1D6C171B00C416ED /* AudioPlayerVC.m */,
+				02FE60FD1D6C171B00C416ED /* AVPlayerViewVC.h */,
+				02FE60FE1D6C171B00C416ED /* AVPlayerViewVC.m */,
 				0260C0CA1D6C1554009EEEE3 /* PlayerVC.m */,
 				0260C0CB1D6C1554009EEEE3 /* RecorderVC.h */,
 				0260C0CC1D6C1554009EEEE3 /* RecorderVC.m */,
@@ -304,6 +314,8 @@
 			files = (
 				0260C0911D6C14FF009EEEE3 /* ViewController.m in Sources */,
 				0260C08E1D6C14FF009EEEE3 /* AppDelegate.m in Sources */,
+				02FE60FF1D6C171B00C416ED /* AudioPlayerVC.m in Sources */,
+				02FE61001D6C171B00C416ED /* AVPlayerViewVC.m in Sources */,
 				0260C0D31D6C1554009EEEE3 /* SoundVC.m in Sources */,
 				0260C0D41D6C1554009EEEE3 /* VideoPlayerVC.m in Sources */,
 				0260C0D21D6C1554009EEEE3 /* RecorderVC.m in Sources */,
