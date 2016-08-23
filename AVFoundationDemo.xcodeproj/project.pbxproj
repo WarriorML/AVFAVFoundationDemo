@@ -15,6 +15,13 @@
 		0260C0991D6C14FF009EEEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0260C0971D6C14FF009EEEE3 /* LaunchScreen.storyboard */; };
 		0260C0A41D6C14FF009EEEE3 /* AVFoundationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0260C0A31D6C14FF009EEEE3 /* AVFoundationDemoTests.m */; };
 		0260C0AF1D6C14FF009EEEE3 /* AVFoundationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0260C0AE1D6C14FF009EEEE3 /* AVFoundationDemoUITests.m */; };
+		0260C0C51D6C1542009EEEE3 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0260C0BC1D6C1542009EEEE3 /* 2.wav */; };
+		0260C0C61D6C1542009EEEE3 /* 天空之城.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0260C0BD1D6C1542009EEEE3 /* 天空之城.mp3 */; };
+		0260C0C71D6C1542009EEEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0260C0BE1D6C1542009EEEE3 /* Assets.xcassets */; };
+		0260C0D11D6C1554009EEEE3 /* PlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0260C0CA1D6C1554009EEEE3 /* PlayerVC.m */; };
+		0260C0D21D6C1554009EEEE3 /* RecorderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0260C0CC1D6C1554009EEEE3 /* RecorderVC.m */; };
+		0260C0D31D6C1554009EEEE3 /* SoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0260C0CE1D6C1554009EEEE3 /* SoundVC.m */; };
+		0260C0D41D6C1554009EEEE3 /* VideoPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0260C0D01D6C1554009EEEE3 /* VideoPlayerVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,17 @@
 		0260C0AA1D6C14FF009EEEE3 /* AVFoundationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFoundationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0260C0AE1D6C14FF009EEEE3 /* AVFoundationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundationDemoUITests.m; sourceTree = "<group>"; };
 		0260C0B01D6C14FF009EEEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0260C0BC1D6C1542009EEEE3 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		0260C0BD1D6C1542009EEEE3 /* 天空之城.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "天空之城.mp3"; sourceTree = "<group>"; };
+		0260C0BE1D6C1542009EEEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0260C0C41D6C1542009EEEE3 /* PlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerVC.h; sourceTree = "<group>"; };
+		0260C0CA1D6C1554009EEEE3 /* PlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerVC.m; sourceTree = "<group>"; };
+		0260C0CB1D6C1554009EEEE3 /* RecorderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecorderVC.h; sourceTree = "<group>"; };
+		0260C0CC1D6C1554009EEEE3 /* RecorderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecorderVC.m; sourceTree = "<group>"; };
+		0260C0CD1D6C1554009EEEE3 /* SoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundVC.h; sourceTree = "<group>"; };
+		0260C0CE1D6C1554009EEEE3 /* SoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundVC.m; sourceTree = "<group>"; };
+		0260C0CF1D6C1554009EEEE3 /* VideoPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerVC.h; sourceTree = "<group>"; };
+		0260C0D01D6C1554009EEEE3 /* VideoPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,17 @@
 		0260C0881D6C14FF009EEEE3 /* AVFoundationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0260C0CA1D6C1554009EEEE3 /* PlayerVC.m */,
+				0260C0CB1D6C1554009EEEE3 /* RecorderVC.h */,
+				0260C0CC1D6C1554009EEEE3 /* RecorderVC.m */,
+				0260C0CD1D6C1554009EEEE3 /* SoundVC.h */,
+				0260C0CE1D6C1554009EEEE3 /* SoundVC.m */,
+				0260C0CF1D6C1554009EEEE3 /* VideoPlayerVC.h */,
+				0260C0D01D6C1554009EEEE3 /* VideoPlayerVC.m */,
+				0260C0BC1D6C1542009EEEE3 /* 2.wav */,
+				0260C0BD1D6C1542009EEEE3 /* 天空之城.mp3 */,
+				0260C0BE1D6C1542009EEEE3 /* Assets.xcassets */,
+				0260C0C41D6C1542009EEEE3 /* PlayerVC.h */,
 				0260C08C1D6C14FF009EEEE3 /* AppDelegate.h */,
 				0260C08D1D6C14FF009EEEE3 /* AppDelegate.m */,
 				0260C08F1D6C14FF009EEEE3 /* ViewController.h */,
@@ -243,9 +272,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0260C0C61D6C1542009EEEE3 /* 天空之城.mp3 in Resources */,
 				0260C0991D6C14FF009EEEE3 /* LaunchScreen.storyboard in Resources */,
 				0260C0961D6C14FF009EEEE3 /* Assets.xcassets in Resources */,
 				0260C0941D6C14FF009EEEE3 /* Main.storyboard in Resources */,
+				0260C0C71D6C1542009EEEE3 /* Assets.xcassets in Resources */,
+				0260C0C51D6C1542009EEEE3 /* 2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +304,11 @@
 			files = (
 				0260C0911D6C14FF009EEEE3 /* ViewController.m in Sources */,
 				0260C08E1D6C14FF009EEEE3 /* AppDelegate.m in Sources */,
+				0260C0D31D6C1554009EEEE3 /* SoundVC.m in Sources */,
+				0260C0D41D6C1554009EEEE3 /* VideoPlayerVC.m in Sources */,
+				0260C0D21D6C1554009EEEE3 /* RecorderVC.m in Sources */,
 				0260C08B1D6C14FF009EEEE3 /* main.m in Sources */,
+				0260C0D11D6C1554009EEEE3 /* PlayerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +532,7 @@
 				0260C0B51D6C14FF009EEEE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0260C0B61D6C14FF009EEEE3 /* Build configuration list for PBXNativeTarget "AVFoundationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +541,7 @@
 				0260C0B81D6C14FF009EEEE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0260C0B91D6C14FF009EEEE3 /* Build configuration list for PBXNativeTarget "AVFoundationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +550,7 @@
 				0260C0BB1D6C14FF009EEEE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
